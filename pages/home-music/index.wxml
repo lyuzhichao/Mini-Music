@@ -1,0 +1,74 @@
+<!--pages/home-music/index.wxml-->
+<van-search value="{{ value }}" 
+            disabled
+            placeholder="搜索您喜欢的歌曲"
+            background="#fafafa"
+            shape="round"
+            bind:click-input="handleClickSearch"/>
+
+<swiper class="swiper"
+        autoplay
+        indicator-dots
+        circular
+        style="height: {{bannerHeight}}px;"
+        >
+    <block wx:for="{{banners}}" wx:key="bannerId">
+    <swiper-item class="swiper-item">
+        <image class="swiper-image" 
+               src="{{item.pic}}" 
+               mode="widthFix" 
+               bindload="getPicHeight"></image>
+    </swiper-item>
+    </block>
+</swiper>
+
+<view class="recommend-song" wx:if="{{recoomendSongs.length>0}}">
+    <area-header title='推荐歌曲' bind:click="handleMoreClick"></area-header>
+    <view class="song-list">
+        <block wx:for="{{recoomendSongs}}" wx:key="id">
+            <song-item-v1 item="{{item}}" bindtap="handleSongItemClick" data-index="{{index}}"></song-item-v1>
+        </block>
+    </view>
+</view>
+
+<view class="recommend-song-playlist" wx:if="{{hotSongMenu.length>0}}">
+    <song-menu-area songMenu="{{hotSongMenu}}" title="热门歌单" menuType="全部"></song-menu-area>
+</view>
+
+<view class="recommend-song-playlist" wx:if="{{recommendSongMenu.length>0}}">
+    <song-menu-area songMenu="{{recommendSongMenu}}" title="推荐歌单" menuType="华语"></song-menu-area>
+</view>
+
+<view class="rangking">
+    <area-header title='巅峰榜' showRight="{{false}}"></area-header>
+    <view class="rangking -list">
+        <block wx:for="{{rankings}}" wx:key="index">
+            <ranking-area-item item="{{item}}" bindtap="handleRankingClick" data-idx="{{index}}"></ranking-area-item>
+        </block>
+    </view>
+</view>
+
+<!-- 播放工具栏 -->
+<!-- <view class="paly-bar-placeholder" wx:if="{{currentSong.id}}"></view>
+<view class="play-bar" wx:if="{{currentSong.id}}" bindtap="hanldePlayBarClick">
+    <view class="left">
+        <image 
+            style="animation-play-state: {{playAnimationStatus}};"
+            class="album album-animation" 
+            mode="aspectFill" 
+            src="{{currentSong.al.picUrl}}"></image>
+        <view class="name">{{currentSong.name}}</view>
+    </view>
+    <view class="right">
+    <image 
+            class="icon play" 
+            src="/assets/images/music/{{playingName}}_icon.png"
+            catchtap="handlePlayStatusClick"></image>
+        <!-- <image class="icon pause" src="/assets/images/music/pause_icon.png"></image> -->
+        <!-- <image class="icon playlist" src="/assets/images/music/playlist_icon.png"></image>
+    </view>
+</view> -->
+
+<player-bar></player-bar>
+<play-list></play-list>
+

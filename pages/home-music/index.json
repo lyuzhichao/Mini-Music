@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-search": "@vant/weapp/search/index",
+    "area-header":"../../components/area-header/index",
+    "song-item-v1":"../../components/song-item-v1/index",
+    "song-menu-area":"../../components/song-menu-area/index",
+    "ranking-area-item":"../../components/ranking-area-item/index",
+    "player-bar":"../../components/player-bar/index",
+    "play-list":"../../components/play-list/index"
+  }
+}

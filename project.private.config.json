@@ -1,0 +1,60 @@
+{
+    "setting": {},
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "home-video",
+                    "pathName": "pages/home-video/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "detail-video",
+                    "pathName": "pages/detail-video/index",
+                    "query": "id=14492352",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "home-music",
+                    "pathName": "pages/home-music/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "detail-menu",
+                    "pathName": "pages/detail-songs/index",
+                    "query": "menuID=2158907767&type=menu",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "search-detail",
+                    "pathName": "pages/detail-search/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "music-menu",
+                    "pathName": "pages/music-menu/index",
+                    "query": "menuType=全部",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "music-player",
+                    "pathName": "pages/music-player/index",
+                    "query": "id=1901371647",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
+    },
+    "description": "Project configuration file, more information: https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+    "libVersion": "2.23.3"
+}

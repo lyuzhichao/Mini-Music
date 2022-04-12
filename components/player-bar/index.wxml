@@ -1,0 +1,22 @@
+<!--components/player-bar/index.wxml-->
+
+<view class="paly-bar-placeholder" wx:if="{{currentSong.id}}"></view>
+<view class="play-bar" wx:if="{{currentSong.id}}" bindtap="hanldePlayBarClick">
+    <view class="left">
+        <image 
+            style="animation-play-state: {{playAnimationStatus}};"
+            class="album album-animation" 
+            mode="aspectFill" 
+            src="{{currentSong.al.picUrl}}"></image>
+        <view class="name">{{currentSong.name}}</view>
+    </view>
+    <view class="right">
+    <image 
+            class="icon play" 
+            src="/assets/images/music/{{playingName}}_icon.png"
+            catchtap="handlePlayStatusClick"></image>
+    <image class="icon playlist" 
+            src="/assets/images/music/playlist_icon.png"
+            catchtap="handlePlayListClick"></image>
+    </view>
+</view>

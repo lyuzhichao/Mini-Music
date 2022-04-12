@@ -1,0 +1,33 @@
+function formatCount(count){
+    var counter=parseInt(count)
+    if (counter>=100000000){
+        return (counter/100000000).toFixed(1)+'亿'
+    } else if (counter>=10000){
+        return (counter/10000).toFixed(1)+'万'
+    } else {
+        return counter+''
+    }
+}
+
+function padZero(time){
+    time=time+''
+    return ('00'+time).slice(time.length)
+}
+
+
+function formatDuration(duration){
+    duration=parseInt(duration/1000)
+    var minute=padZero(Math.floor(duration/60))
+    var second=padZero(duration%60)
+    return minute+':'+second
+}
+
+function formatDisplayCount(count){
+    return formatCount(count)+'次播放'
+}
+
+module.exports={
+    formatCount:formatCount,
+    formatDuration:formatDuration,
+    formatDisplayCount:formatDisplayCount
+}

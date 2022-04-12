@@ -1,0 +1,57 @@
+/* components/player-bar/index.wxss */
+.paly-bar-placeholder {
+    height: 44px;
+}
+
+.play-bar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0 8px;
+    left: 0;
+    right: 0;
+    height: 44px;
+    bottom: 0;
+    background-color: white;
+    box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+}
+.play-bar .left, .play-bar .right {
+    display: flex;
+    align-items: center;
+}
+
+.play-bar .left .album{
+    position: relative;
+    top: -8px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.album-animation {
+    animation: albumRotate 20s linear infinite;
+}
+@keyframes albumRotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.play-bar .left .name {
+    font-size: 14px;
+    margin-left: 10rpx;
+}
+.play-bar .right .icon {
+    width: 30px;
+    height: 30px;
+}
+.play-bar .right .play {
+    width: 25px;
+    height: 25px;
+    margin-right: 10rpx;
+}

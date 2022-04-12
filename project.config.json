@@ -1,0 +1,74 @@
+{
+    "description": "Project configuration file, more information: https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "setting": {
+        "urlCheck": false,
+        "es6": true,
+        "enhance": true,
+        "postcss": true,
+        "preloadBackgroundData": false,
+        "minified": true,
+        "newFeature": false,
+        "coverView": true,
+        "nodeModules": false,
+        "autoAudits": false,
+        "showShadowRootInWxmlPanel": true,
+        "scopeDataCheck": false,
+        "uglifyFileName": false,
+        "checkInvalidKey": true,
+        "checkSiteMap": false,
+        "uploadWithSourceMap": true,
+        "compileHotReLoad": false,
+        "lazyloadPlaceholderEnable": false,
+        "useMultiFrameRuntime": true,
+        "useApiHook": true,
+        "useApiHostProcess": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "useIsolateContext": true,
+        "userConfirmedBundleSwitch": false,
+        "packNpmManually": false,
+        "packNpmRelationList": [],
+        "minifyWXSS": true,
+        "disableUseStrict": false,
+        "minifyWXML": true,
+        "showES6CompileOption": false,
+        "useCompilerPlugins": false,
+        "ignoreUploadUnusedFiles": true,
+        "useStaticServer": true
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.18.0",
+    "appid": "wx5a953066ee19f04b",
+    "projectname": "LVMusic",
+    "condition": {
+        "search": {
+            "list": []
+        },
+        "conversation": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "plugin": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": []
+        }
+    },
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "song-menu-item":"../../components/song-menu-item",
+        "player-bar":"../../components/player-bar/index",
+        "play-list":"../../components/play-list/index"
+    }
+}

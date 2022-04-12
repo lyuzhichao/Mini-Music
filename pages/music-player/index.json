@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "navigation-bar":"../../components/navigation-bar/index",
+        "play-list":"../../components/play-list/index"
+    },
+    "navigationStyle": "custom"
+}

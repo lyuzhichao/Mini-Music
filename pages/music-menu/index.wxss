@@ -1,0 +1,21 @@
+/* pages/music-menu/index.wxss */
+page {
+    padding: 0 20px;
+}
+
+.title {
+    font-size: 34rpx;
+    font-weight: 700;
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item {
+    width: 31%;
+    margin-bottom: 15rpx;
+}

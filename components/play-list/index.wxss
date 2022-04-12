@@ -1,0 +1,74 @@
+/* components/play-list/index.wxss */
+.scroll-view {
+    /* position: relative; */
+    height: 450px;
+    width: 100%;
+    padding: 0 20rpx;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 12rpx;
+    box-shadow: 0 -1px 5px rgba(0,0,0,0.2);
+}
+
+.scroll-view .current-play {
+    width: 96%;
+    position: fixed;
+    display: flex;
+    padding:15rpx 0;
+    align-items: baseline;
+    background-color: white;
+    border-radius: 20rpx;
+}
+.current-play .play-title {
+    font-size: 34rpx;
+    font-weight: 550;
+    color: black;
+}
+.current-play .song-number {
+    font-size: 28rpx;
+    color: lightgray;
+    padding-left: 10rpx;
+}
+
+.play-list {
+    padding-top: 40px;
+}
+/* ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+  } */
+
+
+
+.item {
+    display: flex;
+    height: 20px;
+    line-height: 20px;
+    padding: 15rpx 0;
+}
+.item .icon .image{
+    width: 42rpx;
+}
+.item .info {
+    display: flex;
+    float: 1;
+    font-size: 28rpx;
+    /* padding-left: 10rpx; */
+    white-space: nowrap;
+    word-break: break-all;
+    word-wrap:break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.sep {
+    padding: 0 10rpx;
+    color: lightgray;
+}
+.artist {
+    color: lightgray;
+}
+/* .title {
+    margin-left: 15rpx;
+} */

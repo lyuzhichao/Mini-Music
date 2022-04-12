@@ -1,0 +1,16 @@
+<!--pages/music-menu/index.wxml-->
+<view class="item">
+    <view class="title">{{title}}</view>
+    <view class="menu">
+        <block wx:for="{{musicPlaylist}}" wx:key="id">
+            <view class="menu-item">
+                <song-menu-item item="{{item}}" 
+                                    bindtap="songMenuItemClcik"
+                                    data-item="{{item}}"></song-menu-item>
+            </view>
+    </block>
+    </view>
+
+</view>
+<player-bar></player-bar>
+<play-list></play-list>

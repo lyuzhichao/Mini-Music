@@ -1,0 +1,41 @@
+<!--components/play-list/index.wxml-->
+<page-container
+    show="{{showPage}}"
+    round
+    close-on-slideDown
+    bind:afterleave="handlePageExit"
+    bind:enter="handleScrollTop"
+    class="page-container"
+    wx:if="{{showPage}}">
+    <scroll-view 
+        class="scroll-view"
+        scroll-y
+        scroll-top="{{playListScrollTop}}"
+        scroll-with-animation>
+    <view class="current-play">
+        <view class="play-title">当前播放</view>
+        <view class="song-number">({{playListSongs.length}})</view>
+        <view class="play-mode"></view>
+    </view>
+    <view class="play-list">
+        <block wx:for="{{playListSongs}}" wx:key="id">
+            <view class="item" bindtap="handleItemClick" data-index="{{index}}" data-item="{{item}}">
+                <!-- <view class="icon">
+                    <image class="image" mode="widthFix" src="../../assets/images/icons/sq_icon.png"></image>
+                </view> -->
+                <view class="info">
+                    <view class="title" style="color: {{playListIndex===index?'#26ce8a':'black'}};">{{item.name}}</view>
+                    <view class="sep" style="color: {{playListIndex===index?'#26ce8a':'lightgray'}};">-</view>
+                    <view class="artist" 
+                        style="color: {{playListIndex===index?'#26ce8a':'lightgray'}};">
+                        {{item.ar[0].name || item.artists[0].name}}
+                        </view>
+                </view>
+            </view>
+    </block>
+    </view>
+
+</scroll-view>
+</page-container>
+
+
