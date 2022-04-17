@@ -16,9 +16,9 @@ This is a wechat mini program for music/video playing. Thanks for coderwhy's onl
 #### Playlist and playlist detail
 
 <div class='half'>
-  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2022041716014412.jpg" width="33%"/>
-  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601444.jpg" width="33%"/>
-  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601443.jpg" width="33%"/>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2022041716014412.jpg" width="32%"/>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601444.jpg" width="32%"/>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601443.jpg" width="32%"/>
 </div>
 
 #### Music Play , Lyric Show and Current Playlist
