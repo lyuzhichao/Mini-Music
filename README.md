@@ -29,7 +29,7 @@
     <h3 class="wolai-block"><span class="inline-wrap">Function Introduction</span></h3>
     <aside class="bg-cultured wolai-block">
         <div data-symbol="🎵" class="icon"></div>
-        <span class="inline-wrap">Sing Song List</span></aside>
+        <span class="inline-wrap">Single Song List</span></aside>
     <div class="wolai-row">
         <div class="wolai-col" style="flex-grow: 0.5000000074797986">
             <div class="wolai-block wolai-center">
