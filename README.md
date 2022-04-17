@@ -2,7 +2,7 @@
 
 ### Brief Introduction
 
-This is a wechat mini program for music/video playing. Thanks for coderwhy's online course, his github link is [https://github.com/coderwhy](https://github.com/coderwhy)
+This is a wechat mini program for music/video playing. Thanks for coderwhy's online course, his github link is [https://github.com/coderwhy](https://github.com/coderwhy). This project is only for mini program development practice, not for commercial use.
 
 ### Function Introduction
 
