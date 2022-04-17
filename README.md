@@ -8,43 +8,40 @@ This is a wechat mini program for music/video playing. Thanks for coderwhy's onl
 
 #### Single Song List
 
-![](readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220417160144.jpg "")
-
-![](readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601441.jpg "")
-
-
+<div class='half'>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220417160144.jpg" width="33%"/>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601441.jpg" width="33%"/>
+</div>
 
 #### Playlist and playlist detail
 
-![](readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2022041716014412.jpg "")
-
-![](readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601444.jpg "")
-
-![](readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601443.jpg "")
+<div class='half'>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2022041716014412.jpg" width="33%"/>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601444.jpg" width="33%"/>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601443.jpg" width="33%"/>
+</div>
 
 #### Music Play , Lyric Show and Current Playlist
 
-![](readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601445.jpg "")
-
-![](readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601446.jpg "")
-
-![](readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601449.jpg "")
+<div class='half'>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601445.jpg" width="33%"/>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601446.jpg" width="33%"/>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202204171601449.jpg" width="33%"/>
+</div>
 
 #### Search Song
 
-![](readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2022041716014410.jpg "")
-
-
-
-![](readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2022041716014413.jpg "")
-
-
+<div class='half'>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2022041716014410.jpg" width="33%"/>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2022041716014413.jpg" width="33%"/>
+</div>
 
 #### Video Play
 
-![](readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2022041716014414.jpg "")
-
-![](readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2022041716014411.jpg "")
+<div class='half'>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2022041716014414.jpg" width="33%"/>
+  <img src="./readme_image/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2022041716014411.jpg" width="33%"/>
+</div>
 
 
 
